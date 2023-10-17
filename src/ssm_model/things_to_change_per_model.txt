@@ -1,0 +1,5 @@
+Things to change per model
+1. estimated_parameters.py
+2. estimated_parameters_bounds.py
+3. state_space_parameters.py
+4. model/constants/ModelSpecifications

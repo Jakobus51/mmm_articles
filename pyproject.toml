@@ -1,0 +1,23 @@
+[tool.poetry]
+name = "thesis"
+version = "0.1.0"
+description = ""
+authors = ["Jakobus51 <jakob.damen@outlook.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "3.9.1"
+matplotlib = "^3.7.1"
+scipy = "^1.10.1"
+statsmodels = "^0.14.0"
+pandas = "^2.0.2"
+seaborn = "^0.12.2"
+psutil = "^5.9.5"
+mpl-interactions = "^0.23.1"
+
+[tool.poetry.group.dev.dependencies]
+ipykernel = "^6.24.0"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
